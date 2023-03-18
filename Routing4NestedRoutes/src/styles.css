@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.primary {
+  background-color: aliceblue;
+  padding: 16px 32px;
+  display: "flex";
+  justify-content: "flex-start";
+}
+nav a {
+  margin-right: 16px;
+}
+nav div {
+  display: flex;
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
