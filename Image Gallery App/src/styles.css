@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  margin: 20px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+}
